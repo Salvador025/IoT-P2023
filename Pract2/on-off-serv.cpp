@@ -50,7 +50,7 @@ estado = "Apagado";}
 client.println("HTTP/1.1 200 OK");
 client.println("Content-Type: text/html");
 client.println(""); // Importante.
-client.println("<!DOCTYPE HTML>");
+client.println("<!DOCTYPE HTML>");    
 client.println("<html>");
 client.println("<head><meta charset=utf-8></head>");
 client.println("<body><center><font face='Arial'>");
